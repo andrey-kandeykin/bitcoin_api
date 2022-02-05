@@ -3,6 +3,8 @@ from datetime import datetime
 from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
+from fastapi import FastAPI, Request
+app = FastAPI()
 
 token = '5031087182:AAFYXpAf6tzKhbz82x_fz-u3io9nUi2UQsg'
 
